@@ -3,7 +3,7 @@
 This document provides instructions for running the Todo App Docker container using either the `docker run` command or `docker-compose`.
 
 ```bash
-docker run -p 8081:8081 -e DB_URL=jdbc:mysql://host.docker.internal:3306/todoapp -e DB_USER=root -e DB_PASSWORD=blackberry@1106 todo-app-new
+docker run -p 8081:8081 -e DB_URL=jdbc:mysql://host.docker.internal:3306/todoapp -e DB_USER=root -e DB_PASSWORD={db-pswd} todo-app-new
 ```
 or if you are inside the directory where the docker-compose.yml file is present, you can run the following command:
 ```bash
