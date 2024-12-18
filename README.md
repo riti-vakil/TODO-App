@@ -11,7 +11,7 @@ docker-compose up
 ```
 or
 ```bash
-docker-compose -f C:/Users/Riti/Desktop/TODO-App/docker-compose.yml up -d
+docker-compose -f C:/path/to/your/app/docker-compose.yml up -d
 ```
 Important instructions to run the application:
 1. The application runs on port 8081. Make sure this port is available on your machine.
