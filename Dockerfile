@@ -4,7 +4,7 @@ FROM openjdk:17-jdk-slim
 # Set environment variables (optional if using a config file)
 ENV DB_URL=jdbc:mysql://mysql_container:3306/todoapp
 ENV DB_USER=root
-ENV DB_PASSWORD=blackberry@1106
+ENV DB_PASSWORD=
 
 # Set a working directory (optional)
 WORKDIR /app
